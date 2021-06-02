@@ -12,7 +12,7 @@ async function loginUser(credentials) {
   })
     .then(data => data.json())
  }
-
+// We need to store tokens to persist pages thtoughj tabs changing or refreshing the page
 const Login = ({ setToken }) => {
   const [username, setUserName] = useState();
   const [password, setPassword] = useState();
