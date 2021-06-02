@@ -1,3 +1,4 @@
+// server.js is a Node server.
 const express = require("express");
 const cors = require("cors");
 
